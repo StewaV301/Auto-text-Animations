@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+     
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10cm;
+    margin: 0;
+    overflow:hidden;
+
+    background-color: #333;
+    color: #f90;
+}
+
+
+div {
+    position: absolute;
+    bottom: 50px;
+    pad: 10px 20px;
+    background: rgba(224, 129, 129, 0.1);
+
+
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 30px;
+    background-color: rgb(197, 130, 29);
+    text-align: center;
+
+    outline: none;
+    border: none;
+    
+
+}
